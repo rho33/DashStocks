@@ -17,6 +17,8 @@ from dash.dependencies import Input, Output
 
 app = dash.Dash('StockViz')
 
+server = app.server
+
 colors = {
     'background': '#111111',
     'text': '#7FDBFF'
@@ -148,4 +150,4 @@ def update_value(input_data):
     )
 
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8891)
+    app.run_server(debug=True)
