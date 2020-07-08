@@ -4,7 +4,6 @@
 import datetime
 import pickle
 import pandas as pd
-import pandas_datareader.data as web
 from yahoo_fin import stock_info as si
 import plotly.express as px
 import plotly.io as pio
