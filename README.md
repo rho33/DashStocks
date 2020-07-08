@@ -1,0 +1,1 @@
+deployed app at: https://stockvizz.herokuapp.com/
